@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #222222;
+  height: 100vh;
+}
+
+.App .Sidebar {
+  width: 20vw;
+  border-right: 1px solid #545454;
+  height: 100vh;
+}
+
+.App .Content {
+  width: 80vw;
+}

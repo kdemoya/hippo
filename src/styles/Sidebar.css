@@ -1,0 +1,39 @@
+.Sidebar {
+  color: #cccccc;
+  height: 100%;
+}
+
+.Sidebar .NotesWrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar .NoteList {
+  height: 90vh;
+  overflow: scroll;
+}
+
+.Sidebar .NoteListItem {
+  padding: 10px;
+  height: 50px;
+  color: #cccccc;
+  border-bottom: 1px solid #545454;
+}
+
+.Sidebar .NoteListItem:hover {
+  background-color: #545454;
+  cursor: pointer;
+}
+
+.Sidebar .ButtonAdd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #222222;
+  font-size: 18px;
+  height: 10vh;
+  width: 100%;
+  cursor: pointer;
+  background-color: #cccccc;
+}
